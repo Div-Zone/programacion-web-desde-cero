@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios HTML</title>
+</head>
+
+<body style="margin-bottom: 100px;">
+    <a href="#section-img">Ir a la imagen de Pexels</a>
+    <!-- Crea un documento HTML que use todas las etiquetas de encabezado de <h1> a <h6>. -->
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+
+    <!-- Crea un documento HTML con varios párrafos <p> y enlaces <a> que apunten a diferentes sitios web. -->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, hic sapiente? Inventore cum voluptas, modi quos
+        sequi nihil ab expedita optio animi dolor libero voluptatem odit, magni quas nulla magnam.</p>
+    <p>Lorem ipsum dolor <a href="https://google.com" title="Enlace externo">Google</a> adipisicing
+        elit. Facere reprehenderit ex aliquam magni
+        itaque inventore
+        illum natus tenetur, saepe voluptas culpa, tempora sed. Non exercitationem maxime accusamus nihil, expedita
+        incidunt.</p>
+    <p>Lorem ipsum dolor sit, amet <a href="page-1.html" title="...">Página interna</a> consectetur adipisicing elit.
+        Repellat cumque omnis excepturi veniam iste molestiae
+        voluptates ratione necessitatibus consectetur tempore impedit, ad, possimus deserunt nostrum neque nobis.
+        Exercitationem.
+        Recusandae quae tempore facere optio dicta, deleniti aliquid praesentium accusantium rerum neque labore possimus
+        nam ex ratione tenetur necessitatibus <a
+            href="/programacion-web-desde-cero/ejercicios-HTML/15-hs/pages/page-folder-1.html">voluptatibus nulla
+            beatae</a>,
+        provident adipisci vero. Pariatur quo itaque
+        recusandae. Architecto!</p>
+
+
+    <!-- Crea un documento HTML con una lista ordenada (<ol>) y una lista desordenada (<ul>). -->
+
+    <div>
+
+        <h1>Listas</h1>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ol>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+
+    </div>
+
+    <!-- Crea un documento HTML que incluya una imagen usando la etiqueta <img>. -->
+
+    <img src="/programacion-web-desde-cero/ejercicios-HTML/15-hs/img/graphic.png" alt="Imagen de un celular"
+        title="Web de DivZone en celular" style="width: 200px; height: 100px; object-fit: cover;">
+
+    <!-- Crea una tabla con tres filas y tres columnas usando la etiqueta <table>. -->
+
+    <div>
+        <h1>Tabla</h1>
+        <table>
+            <tr>
+                <th>Heading 1</th>
+                <th>Heading 2</th>
+                <th>Heading 3</th>
+            </tr>
+            <tr>
+                <td>Col 1</td>
+                <td>Col 2</td>
+                <td>Col 3</td>
+            </tr>
+            <tr>
+                <td>Col 1</td>
+                <td>Col 2</td>
+                <td>Col 3</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Crea un formulario con campos de texto, correo electrónico y un botón de envío. -->
+    <div>
+        <h1>Formulario</h1>
+
+        <form action="">
+            <div>
+                <label for="name">Nombre</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Ingrese un nombre...">
+            </div>
+            <div>
+                <label for="lastname">Apellido</label>
+                <br>
+                <input type="text" id="lastname" name="lastname" placeholder="Ingrese un apellido...">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Ingrese un correo...">
+            </div>
+            <div>
+                <label for="password">Contraseña</label>
+                <br>
+                <input type="password" id="password" name="password" placeholder="Ingrese un correo...">
+            </div>
+            <button type="submit">
+                <span>Enviar</span>
+            </button>
+        </form>
+    </div>
+
+    <!-- Añade al formulario anterior campos de selección <select> y botones de radio <input type="radio">. -->
+
+    <div>
+        <h1>Formulario con Select y Radio</h1>
+
+        <form action="">
+            <div>
+                <label for="select-1">Colores</label>
+                <br>
+                <select name="select-1" id="select-1">
+                    <option value="Seleccionar color">Seleccionar color</option>
+                    <option value="Rojo">Rojo</option>
+                    <option value="Verde">Verde</option>
+                    <option value="Azul">Azul</option>
+                    <option value="Anaranjado">Anaranjado</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">Lugares</label>
+                <div>
+                    <input type="radio" value="Tucumán" name="place">
+                    Tucumán
+                    <input type="radio" value="Salta" name="place">
+                    Salta
+                    <input type="radio" value="La Rioja" name="place">
+                    La Rioja
+                    <input type="radio" value="Buenos Aires" name="place">
+                    Buenos Aires
+                </div>
+                <div>
+                    <input type="color">
+                    <input type="date">
+                </div>
+                <div>
+                    <input type="checkbox" name="checkbox">
+                    <input type="checkbox" name="checkbox">
+                    <input type="checkbox" name="checkbox">
+                </div>
+            </div>
+            <br>
+            <button type="submit">
+                <span>Enviar</span>
+            </button>
+        </form>
+    </div>
+
+    <!-- Añade al formulario anterior casillas de verificación <input type="checkbox">. -->
+    <h1>Formulario con checkbox</h1>
+
+    <form action="">
+
+
+        <div>
+            <label for="">Lugares para visitar</label>
+            <div>
+                <div>
+                    <input type="checkbox" name="checkbox" id="argentina" value="Argentina">
+                    <label for="">Argentina</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="checkbox" id="espana" value="España">
+                    <label for="">España</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="checkbox" id="chile" value="Chile">
+                    <label for="">Chile</label>
+                </div>
+            </div>
+        </div>
+        <br>
+        <button type="submit">
+            <span>Enviar</span>
+        </button>
+    </form>
+
+    <!-- Crea un documento HTML donde una imagen sirva como enlace. -->
+
+    <div id="section-img">
+        <h1>Imagen con link externo</h1>
+        <div>
+            <a href="https://www.pexels.com/es-es/foto/verano-sol-arbusto-matorral-25561070/" target="_blank">
+                <img src="https://images.pexels.com/photos/25561070/pexels-photo-25561070/free-photo-of-verano-sol-arbusto-matorral.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                    alt="Descripción" style="width: 200px; height: 200px; object-fit: cover;">
+            </a>
+        </div>
+    </div>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
+        allowfullscreen></iframe>
+
+</body>
+
+</html>
