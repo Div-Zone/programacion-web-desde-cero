@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ejercicios HTML</title>
+</head>
+
+<body>
+
+    <!-- Parrafos -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste explicabo iusto vitae delectus, labore maxime
+        deleniti porro placeat fugiat repellat illo excepturi quo praesentium assumenda vel. Perspiciatis adipisci
+        repellat accusamus?</p>
+
+    <!-- Crea un documento HTML que use todas las etiquetas de encabezado de <h1> a <h6>. -->
+    <h1>¡Hola, mundo!</h1>
+    <h2>Titulo H2</h2>
+    <h3>Titulo H3</h3>
+    <h4>Titulo H4</h4>
+    <h5>Titulo H5</h5>
+    <h6>Titulo H6</h6>
+
+    <!-- Crea un documento HTML con varios párrafos <p> y enlaces <a> que apunten a diferentes sitios web. -->
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <a href="https://google.com" title="Link a Google"
+            target="_blank">Google</a> Quia et fugit rem hic pariatur aut
+        quam. Quibusdam eum exercitationem cumque officiis consequatur delectus perferendis natus, alias eaque?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, eos tenetur! Quia et fugit rem hic pariatur aut
+        quam. <a href="page1.html" title="Link a página 1">Page 1</a> Quibusdam eum exercitationem cumque officiis
+        consequatur delectus
+        perferendis natus, alias eaque?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, eos tenetur! Quia et fugit rem hic pariatur aut
+        quam. <a href="/pages/page1.html" title="...">Página dentro de carpeta</a> Quibusdam eum exercitationem cumque
+        officiis consequatur delectus perferendis natus, alias eaque?</p>
+
+    <!-- Crea un documento HTML con una lista ordenada (<ol>) y una lista desordenada (<ul>). -->
+    <div>
+        <h1>Listas</h1>
+        <div>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+                <li>Item 6</li>
+            </ol>
+        </div>
+        <div>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+                <li>Item 6</li>
+                <li>Item 7</li>
+                <li>Item 8</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Crea un documento HTML que incluya una imagen usando la etiqueta <img>. -->
+    <h1>Imagen</h1>
+
+    <img src="/img/graphic.png" title="..." alt="Descripción de la imagen" style="width: 200px;" />
+
+    <!-- Crea una tabla con tres filas y tres columnas usando la etiqueta <table>. -->
+
+    <h1>Tablas</h1>
+    <div>
+        <table>
+            <tr>
+                <th>Heading 1</th>
+                <th>Heading 2</th>
+                <th>Heading 3</th>
+            </tr>
+            <tr>
+                <td>Texto 1</td>
+                <td>Texto 2</td>
+                <td>Texto 3</td>
+            </tr>
+            <tr>
+                <td>Texto 4</td>
+                <td>Texto 5</td>
+                <td>Texto 6</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Crea un formulario con campos de texto, correo electrónico y un botón de envío. -->
+    <h1>Formulario 1</h1>
+    <form onsubmit="">
+        <div>
+            <label for="input-1">Nombre</label>
+            <br>
+            <input type="text" id="input-1" name="input-1" placeholder="Ingresar nombre...">
+        </div>
+        <div>
+            <label for="input-2">Apellido</label>
+            <br>
+            <input type="text" id="input-2" name="input-2" placeholder="Ingresar apellido...">
+        </div>
+        <br>
+        <!-- <input type="button" value="Button"> -->
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Añade al formulario anterior campos de selección <select> y botones de radio <input type="radio">. -->
+    <h1>Formulario 2</h1>
+    <form onsubmit="">
+        <div>
+            <label for="input-1">Nombre</label>
+            <br>
+            <input type="text" id="input-1" name="input-1" placeholder="Ingresar nombre...">
+        </div>
+        <div>
+            <label for="input-2">Apellido</label>
+            <br>
+            <input type="text" id="input-2" name="input-2" placeholder="Ingresar apellido...">
+        </div>
+        <br>
+        <div>
+            <label for="select-1">Select 1</label>
+            <br>
+            <select name="select-1" id="select-1">
+                <option value="">Option 1</option>
+                <option value="">Option 2</option>
+                <option value="">Option 3</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Select a maintenance drone:</legend>
+
+                <div>
+                    <input type="radio" id="huey" name="drone" value="huey" checked />
+                    <label for="huey">Huey</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="dewey" name="drone" value="dewey" />
+                    <label for="dewey">Dewey</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="louie" name="drone" value="louie" />
+                    <label for="louie">Louie</label>
+                </div>
+            </fieldset>
+        </div>
+
+        <!-- <input type="button" value="Button"> -->
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Añade al formulario anterior casillas de verificación <input type="checkbox">. -->
+    <h1>Formulario 3 con checkbox</h1>
+    <form onsubmit="">
+        <div>
+            <label for="input-1">Nombre</label>
+            <br>
+            <input type="text" id="input-1" name="input-1" placeholder="Ingresar nombre...">
+        </div>
+        <div>
+            <label for="input-2">Apellido</label>
+            <br>
+            <input type="text" id="input-2" name="input-2" placeholder="Ingresar apellido...">
+        </div>
+        <br>
+        <div>
+            <label for="select-1">Select 1</label>
+            <br>
+            <select name="select-1" id="select-1">
+                <option value="">Option 1</option>
+                <option value="">Option 2</option>
+                <option value="">Option 3</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Select a maintenance drone:</legend>
+
+                <div>
+                    <input type="radio" id="huey" name="drone" value="huey" checked />
+                    <label for="huey">Huey</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="dewey" name="drone" value="dewey" />
+                    <label for="dewey">Dewey</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="louie" name="drone" value="louie" />
+                    <label for="louie">Louie</label>
+                </div>
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Select a maintenance robot:</legend>
+                <div>
+                    <input type="checkbox" id="huey" name="drone" value="huey" checked />
+                    <label for="huey">Robot 1</label>
+                </div>
+
+                <div>
+                    <input type="color" id="dewey" name="drone" value="dewey" />
+                    <label for="dewey">Robot 2</label>
+                </div>
+
+                <div>
+                    <input type="date" id="louie" name="drone" value="louie" />
+                    <label for="louie">Robot 3</label>
+                </div>
+                <div>
+                    <input type="password" id="louie" name="drone" value="louie" />
+                    <label for="louie">Robot 3</label>
+                </div>
+            </fieldset>
+        </div>
+
+        <!-- <input type="button" value="Button"> -->
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Crea un documento HTML donde una imagen sirva como enlace. -->
+    <h1>Dopcumento con imagen dentro de un link</h1>
+    <a href="/pages/page1.html" title="Enlace de imagen">
+        <h2>Imagen con enlace...</h2>
+        <br>
+        <img src="/img/graphic.png" title="..." alt="Descripción de la imagen con enlace"
+            style="width: 300px; height: 100px; object-fit: cover;" />
+    </a>
+
+</body>
+
+</html>
