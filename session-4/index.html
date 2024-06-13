@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesión 4 - Ejercicios</title>
+    <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        p {
+            /* 1 rem = 16px */
+            font-size: 1rem;
+        }
+
+        .main-box {
+            margin-bottom: 60px;
+            background-color: #c7c7c7;
+            padding: 10px;
+        }
+
+        .main-box a {
+            color: blue;
+            font-weight: bold;
+        }
+
+        .main-box .link {
+            color: red;
+        }
+
+        .main-box.strong {
+            border: solid 2px #000000;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .main-box p {
+            font-size: 19px;
+            font-weight: lighter;
+        }
+
+        .main-box p b {
+            font-weight: bold;
+            color: blue;
+        }
+
+        .position-example {
+            background-color: #c7c7c7;
+            position: relative;
+            display: flex;
+        }
+
+        .position-example div {
+            width: 80px;
+            height: 80px;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .position-example .div-1 {
+            background-color: red;
+        }
+
+        .position-example .div-2 {
+            background-color: green;
+        }
+
+        .position-example .div-3 {
+            background-color: blue;
+        }
+
+        .head h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="position-example">
+        <div class="div-1">
+            <span>RR</span>
+        </div>
+        <div class="div-2">
+            <span>GG</span>
+        </div>
+        <div class="div-3">
+            <span>BB</span>
+        </div>
+    </div>
+    <div class="main-box strong">
+        <div>
+            <a class="link" href="#">Link</a>
+            <a class="link" href="#">Link</a>
+            <a class="link" href="#">Link</a>
+        </div>
+        <div class="head">
+            <h1>Titulo 1</h1>
+            <h2>Titulo 2</h2>
+            <h3>Titulo 3</h3>
+        </div>
+
+        <p class="text">Lorem ipsum <b>dolor sit</b> amet consectetur adipisicing elit. Atque aut saepe quas enim omnis,
+            illo
+            harum a
+            expedita sint nihil, incidunt, similique impedit pariatur aliquam quo repellendus magnam consequuntur! Sit?
+        </p>
+    </div>
+    <div class="main-box">
+        <a href="#">Link</a>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aut saepe quas enim omnis, illo
+            harum a
+            expedita sint nihil, incidunt, similique impedit pariatur aliquam quo repellendus magnam consequuntur! Sit?
+        </p>
+    </div>
+</body>
+
+</html>
